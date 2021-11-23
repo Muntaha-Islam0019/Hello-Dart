@@ -28,4 +28,7 @@ void main(List<String> args) {
 
   weakVariable = "Now it's a String.";
   print('weakVariable: $weakVariable');
+
+  weakVariable = null;
+  print('weakVariable: $weakVariable');
 }
